@@ -91,7 +91,7 @@ html {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: var(--blue4);
+    background: var(--success);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -610,6 +610,7 @@ footer span a:hover {
     .max-width {
         padding: 0 50px;
     }
+    
 }
 @media(max-width: 950px ){
     .max-width {
@@ -711,6 +712,14 @@ footer span a:hover {
         text-align: center;
         margin-bottom: 30px;
     }
+    .motto-bottom-right {
+        padding: 20px;
+        margin-top: 25px;
+        
+    }
+    .motto-bottom-right h1 {
+        font-size: 20pt;
+    }
 }
 @media(max-width: 690px ) {
     section {
@@ -727,6 +736,12 @@ footer span a:hover {
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .motto-bottom-right h1 {
+        font-size: 13pt;
+    }
+    .motto-bottom-left button {
+        padding: 14px;
     }
 }
 
